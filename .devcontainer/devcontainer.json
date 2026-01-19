@@ -1,0 +1,34 @@
+{
+  "name": "Lansing Tech Studio Workshops",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:24",
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "latest"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "ms-python.python",
+        "usernamehw.errorlens",
+        "formulahendry.code-runner"
+      ],
+      "settings": {
+        "files.autoSave": "afterDelay",
+        "files.autoSaveDelay": 1000,
+        "editor.formatOnSave": true,
+        "editor.fontSize": 14,
+        "editor.tabSize": 2,
+        "editor.wordWrap": "on",
+        "editor.minimap.enabled": false,
+        "terminal.integrated.fontSize": 14,
+        "code-runner.runInTerminal": true,
+        "code-runner.saveFileBeforeRun": true,
+        "workbench.startupEditor": "readme"
+      }
+    }
+  },
+  "postCreateCommand": "echo '✅ Environment ready! Node.js:' && node --version && echo 'Python:' && python3 --version"
+}
