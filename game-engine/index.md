@@ -13,7 +13,7 @@ workshop: Game Engine Tools
 - [Slides]({{ site.baseurl }}/game-engine/slides.html)
 - Resources:
   - [How to Build the Starter Project]({{ site.baseurl }}/game-engine/starter-code/build-starter-project)
-  - [Starter Project Zip]({{ site.baseurl }}/game-engine/starter-code/platformer-starter-godot4.zip) (coming soon)
+  - [Starter Project Zip]({{ site.baseurl }}/game-engine/starter-code/platformer-starter-godot4.zip)
   - [Glossary]({{ site.baseurl }}/game-engine/resources/glossary)
   - [Next Steps After Game Engine Tools]({{ site.baseurl }}/game-engine/resources/next-steps)
 - Student Handouts:
@@ -51,7 +51,7 @@ A student is successful if they can say:
 - Use the **web editor**: <https://editor.godotengine.org/releases/latest/>
   - If you haave a local install of Godot, you can use that instead.
 - Download the starter project zip from this repo:
-  - `game-engine/starter-code/platformer-starter-godot4.zip` (coming soon)
+  - `game-engine/starter-code/platformer-starter-godot4.zip`
 
 ### Fallback Path
 

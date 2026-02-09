@@ -5,7 +5,7 @@ tools and adding features.
 
 ## Files in this folder
 
-- `platformer-starter-godot4.zip` (coming soon)
+- `platformer-starter-godot4.zip`
 - `build-starter-project.md` (how to create the starter project)
 
 The starter project includes:
