@@ -45,9 +45,6 @@ done
 
 # Primary group name
 PRIMARY_GROUP_NAME="${STUDENT_GROUPS[0]}"
-echo "Using primary group: $PRIMARY_GROUP_NAME"
-
-exit 0
 
 # Resolve primary GID robustly and fail if not resolvable
 if getent group "$PRIMARY_GROUP_NAME" >/dev/null 2>&1; then
